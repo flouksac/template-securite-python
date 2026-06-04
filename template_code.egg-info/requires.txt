@@ -1,7 +1,0 @@
-requests
-scapy
-pygal
-fpdf2
-pytest
-capstone
-python-dotenv
