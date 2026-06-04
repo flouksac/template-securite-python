@@ -25,5 +25,5 @@ poetry install
 Lancer le projet :
 
 ```bash
-poetry run tp1
+uv run ./src/tp1/main.py
 ```
