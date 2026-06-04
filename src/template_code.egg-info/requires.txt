@@ -1,0 +1,9 @@
+requests
+scapy
+pygal
+fpdf2
+pytest
+capstone
+python-dotenv
+reportlab>=4.5.1
+svglib>=1.6.0

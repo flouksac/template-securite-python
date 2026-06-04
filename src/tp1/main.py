@@ -9,9 +9,10 @@ def main():
     capture = Capture()
     capture.capture_traffic()
     capture.analyse("tcp")
-    summary = capture.get_summary()
+
 
     filename = "report.pdf"
+    summary = capture.get_summary()
     report = Report(capture, filename, summary)
     report.generate("graph")
     report.generate("array")
